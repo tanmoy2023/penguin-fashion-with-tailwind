@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>penguin-fashion-with-tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+    .font-bebas{
+        font-family: 'Open Sans', sans-serif;
+    }
+</style>
+
 </head>
 <body>
+    <header class="bg-amber-100 py-20 px-32">
+        <!-- nav section -->
+        <nav class="flex flex-col md:flex-row justify-between items-center">
+            <img src="icons/logo.png" alt="">
+            <div class="flex">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </div>
+            <!-- banner section -->
+        </nav>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-5">
+                <h1 class="text-7xl uppercase fl">
+                    <samp class="text-[#FABE4C] font-bebas">Be the Penguins</samp>
+                    <br>
+                    of Winter</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry.</p>
+                        <button class="py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex ">
+                            <img class="w-6 h-6" src="icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="max-w-7xl mx-auto">
+        <section class="py-5">
+            <h3 class="text-5xl font-bebas ">Woman Jecket</h3>
+        </section>
+    </main>
     
 </body>
 </html>
